@@ -11,8 +11,8 @@ import FooterCom from '../Components/Footer';
 function HomePage() {
   const [message, setMessage] = useState('');
   const [loading,setLoading]=useState(false);
-  const [policy,setPolicy]=useState('');
-  const [recommendations,setRecommendations]=useState('')
+  // const [policy,setPolicy]=useState('');
+  // const [recommendations,setRecommendations]=useState('')
   const [user_tags,setUserTags]=useState('')
   const [age,setAge]=useState('')
   const [social_category,setSocial_Category]=useState('')
@@ -136,11 +136,11 @@ function HomePage() {
             <Button type='submit'>Submit</Button>
         </form>  */}
       <br />
-        {recommendations &&
+        {/* {recommendations &&
           recommendations.map((keyy) => (
             
             <p>{keyy}</p>
-          ))} 
+          ))}  */}
           
       <div class="form-section">
         <div class="box">
