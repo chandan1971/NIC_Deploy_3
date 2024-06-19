@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../Assets/Untitled design.png'
+// import logo from '../Assets/Untitled design.png'
 import imag from '../Assets/img3.png'
 
 function SchemeCard({scheme}) {

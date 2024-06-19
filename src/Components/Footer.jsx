@@ -1,7 +1,7 @@
 import React from 'react'
 import {Footer} from 'flowbite-react'
-import {BsDiscord, BsGithub, BsInstagram, BsTwitter,BsYoutube,BsThreads} from 'react-icons/bs'
-import {SiCodeforces, SiLeetcode, SiLinkedin} from 'react-icons/si'
+import {BsInstagram, BsTwitter,BsYoutube,BsThreads} from 'react-icons/bs'
+import {SiLinkedin} from 'react-icons/si'
 import {Link} from "react-router-dom"
 
 export default function FooterCom(){

@@ -2,12 +2,12 @@ import React from 'react'
 import logo from '../Assets/Untitled design.png'
 
 import {FaLinkedin} from "react-icons/fa"
-import {FaGithub} from "react-icons/fa"
+// import {FaGithub} from "react-icons/fa"
 import {FaTwitterSquare} from "react-icons/fa"
 import {FaInstagram} from "react-icons/fa"
 import { FaYoutube } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import Searchbar from './SearchBar'
+// import Searchbar from './SearchBar'
 
 const Navbar = () => {
   return (

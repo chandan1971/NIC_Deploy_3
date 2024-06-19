@@ -19,6 +19,7 @@ function HomePage() {
   const [gender,setGender]=useState('')
   const [domicile_of_tripura,set_domicile_of_tripura]=useState('')
   const [recommendations_on_user_Inputs,set_recommendations_on_user_Inputs]=useState('')
+  console.log(message);
 
   useEffect(() => {
     setLoading(false)
@@ -32,23 +33,23 @@ function HomePage() {
       });
   }, []);
 
-  const handleChange=(e)=>{
-    setPolicy(e.target.value);
+  // const handleChange=(e)=>{
+  //   setPolicy(e.target.value);
     
-  }
+  // }
 
-  const handleSubmit=(e)=>{
-    e.preventDefault();
-    axios
-    .get(`https://unique-arda-chandan1971-b4d1758e.koyeb.app/result?policy=${policy}`)
-    .then((response)=>{
+  // const handleSubmit=(e)=>{
+  //   e.preventDefault();
+  //   axios
+  //   .get(`https://unique-arda-chandan1971-b4d1758e.koyeb.app/result?policy=${policy}`)
+  //   .then((response)=>{
      
-      response.data=response.data.slice(1,-1);
-      console.log(response.data.split('+'));
-      setRecommendations(response.data.split("+"));
-    })
+  //     response.data=response.data.slice(1,-1);
+  //     console.log(response.data.split('+'));
+  //     setRecommendations(response.data.split("+"));
+  //   })
     
-  }
+  // }
   
   const handleUserInput=(e)=>{
     setLoading(true);
